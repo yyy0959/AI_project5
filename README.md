@@ -1,5 +1,25 @@
 # AI_project5
-## 包含数据文件，四个ipynb文件和执行代码生成的文件
+## 基本配置
+```
+torch==1.11.0
+numpy==1.18.5
+matplotlib==3.3.3
+pandas==1.1.5
+transformers==4.7.0
+```
+## 该项目包含数据文件，四个ipynb文件和执行代码生成的图片
+```
+|-- data # 数据文件夹
+    |-- data/ # 包含所有图片及文本数据
+    |-- test.txt  # 测试集上的预测结果
+    |-- test_without_label.txt # 数据的guid和空的情感标签
+    |-- train.txt # 数据的guid和空的情感标签
+|-- lab5_txt_or_pic.ipynb # 仅使用图片或文本的模型
+|-- lab5_txt_preprocess.ipynb # 仅使用预训练文本的模型
+|-- lab5_CLIP.ipynb # 仅使用CLIp做预测
+|-- lab5_txt_and_pic.ipynb # 使用图片和文本的模型
+```
+### 直接运行ipynb，各个ipynb文件内容如下
 ```
 ### lab5_txt_or_pic.ipynb
 #### 1、仅使用图片，从头训练Resnet模型，三分类准确率60%
