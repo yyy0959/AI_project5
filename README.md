@@ -34,4 +34,8 @@ transformers==4.7.0
 #### 1、使用图片和文本，图片端使用resnet提取特征，文本端使用bert，均做微调，使用concat进行拼接，三分类准确率72%
 #### 2、使用图片和文本，图片端使用resnet提取特征，文本端使用bert，均做微调，使用attention计算他们和query向量的相似度作为权重动态加权，三分类准确率74%
 ```
+### 参考
+未参考其他github库，参考的文章如下：
+https://blog.csdn.net/t20134297/article/details/103885879
+https://zhuanlan.zhihu.com/p/432590298
 
